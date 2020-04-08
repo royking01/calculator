@@ -1,0 +1,61 @@
+}
+body {
+    margin: 0 auto;
+	padding: 0;
+	font-family:'Orbitron', sans-serif ;
+}
+
+.text{
+color: white;
+background-color: #313830;
+border: #313830;
+font-size: 10vh;
+width:34vh
+}
+.num {
+    /*padding:30px 50px;*/
+    cursor:pointer;
+    background-color:#313830;
+    font-size:2em;
+    border-radius:4px;
+    border:#313830;
+    transition: all 0.3s linear;
+    color: white;
+    width: 7.5vh;
+    height: 5.5vh;
+
+}
+.num:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.container{
+	margin: 0 auto;
+	padding:10px;
+	border: 0.5px solid black;
+    height: 55vh; 
+    width: 35vh; 
+    align-items: center;
+    justify-content: center;
+    background-color: #313830;
+     border: #313830;
+    border-radius: 20px;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.last:hover{
+	background-color: #f59314;
+	color: white;
+}
+	.clr:hover{
+	background-color: grey;
+}
+
+@media only screen and (min-width: 60px) {
+    .container {
+    	
+    }
