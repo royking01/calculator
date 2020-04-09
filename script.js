@@ -1,4 +1,4 @@
-function insrt(num){
+ function insrt(num){
 	$('.text').val($('.text').val()+ num);
 }
 function eql(){
@@ -10,4 +10,7 @@ function c(){
 function del(){
 	value=$('.text').val();
 	$('.text').val(value.substring(0, value.length - 1));
+}
+function per(){
+		$('.text').val($('.text').val()/100);
 }
