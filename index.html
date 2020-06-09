@@ -1,58 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Calculator</title>
+
 	<script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous">
-  	
-  </script>
+	<title>
+		CALCULATOR
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="styleCalculator.css">
 </head>
 <body>
-	<header>
-		<h1>Calculator</h1>
-	</header>
-	<div class="container sm-6"> 	
-		<div class="Calc">
-			<div id="Calculator__display">
-			<input class="text" type="text" name="text">
-			<div></div>
+	<h1>CALCULATOR</h1>
+	<section id="section">
+
+		<div id="main">
+			<input id="textspace" type="text" name="text" placeholder="0">
+
 			<div class="btnr1">
-				<button id="c" class="clr num c"onclick="c()">c</button>
+				<button id="c" class="clr num c" onclick="c()">c</button>
 				<button  class="clr num n" id="+/-" value="+/-"onclick="del()"><</button>
 				<button class="clr num per" id="%" value="%"onclick="per()">%</button>
 				<button class="clr num last" id="/" value="/"onclick="insrt('/')">/</button>
-			</div>
-			<div class="btnr2">
+				<br>
 				<button class="clr num 7" id="7" value="7"onclick="insrt(7)">7</button>
 				<button class="clr num 8" id="8" value="8"onclick="insrt(8)">8</button>
 				<button class="num 9" id="9" value="9"onclick="insrt(9)">9</button>
 				<button class="num last" id="*" value="*"onclick="insrt('*')">*</button>
-			</div>
-			<div class="btnr3">
 				<button class="num 4" id="4" value="4" onclick="insrt(4)">4</button>
 				<button class="num 5" id="5" value="5" onclick="insrt(5)">5</button>
 				<button class="num 6" id="6" value="6" onclick="insrt(6)">6</button>
 				<button class="num last" id="-" value="-" onclick="insrt('-')">-</button>
-			</div>
-			<div class="btnr4">
 				<button  class="num 1" id="1" value="1" onclick="insrt(1)">1</button>
 				<button  class="num 2" id="2" value="2" onclick="insrt(2)">2</button>
 				<button class="num clr 3"  id="3" value="3"onclick="insrt(3)">3</button>
 				<button class="num clr last" id="+" value="+" onclick="insrt('+')">+</button>
-			</div>
-			<div class="btnr5">
 				<button class="num bt clr zero" id="0" value="0" onclick="insrt(0)">0</button>
 				<button class="num bt clr decimal" id="dec" value="." onclick="insrt('.')">.</button>
 				<button class="num bt  last" id="eql"  value="=" onclick="eql()">=</button>
 			</div>
-</div>
-<script type="text/javascript" src="script.js"></script>
+
+			
+		</div>
+		
+	</section>
+	<script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>
